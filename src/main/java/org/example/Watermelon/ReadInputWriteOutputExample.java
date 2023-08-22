@@ -2,6 +2,7 @@ package org.example.Watermelon;
 
 //https://codeforces.com/problemset/problem/4/A
 
+import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -42,8 +43,10 @@ public class ReadInputWriteOutputExample {
     }
 
     public static void main(String[] args) throws IOException {
-        String s = Reader.next();
-        out.println(Watermelon.sharingWatermelon(Integer.parseInt(s)));
+        Reader.init(System.in);
+        int s = Reader.nextInt();
+        out = new PrintWriter(new BufferedOutputStream(System.out));
+        out.println(Watermelon.sharingWatermelon(s));
         // Отправить накопленный вывод на stdout
         out.close();
     }
