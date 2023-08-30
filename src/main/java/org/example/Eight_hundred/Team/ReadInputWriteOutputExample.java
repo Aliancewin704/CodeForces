@@ -1,4 +1,4 @@
-package org.example.Team;
+package org.example.Eight_hundred.Team;
 
 //https://codeforces.com/problemset/problem/231/A
 
