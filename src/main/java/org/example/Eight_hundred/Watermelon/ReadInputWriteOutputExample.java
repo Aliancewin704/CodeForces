@@ -1,4 +1,4 @@
-package org.example.Watermelon;
+package org.example.Eight_hundred.Watermelon;
 
 //https://codeforces.com/problemset/problem/4/A
 
