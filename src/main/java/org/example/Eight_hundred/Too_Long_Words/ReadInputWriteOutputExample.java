@@ -1,4 +1,4 @@
-package org.example.Eight_hundred.too_long_words;
+package org.example.Eight_hundred.Too_Long_Words;
 
 //https://codeforces.com/problemset/problem/71/A
 

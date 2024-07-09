@@ -1,4 +1,4 @@
-package org.example.Eight_hundred.too_long_words;
+package org.example.Eight_hundred.Too_Long_Words;
 
 public class TooLongWords {
 
